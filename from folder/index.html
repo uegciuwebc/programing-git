@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>from tag</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            background-color: #a6a3a3;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            padding: 50px;
+        }
+        nav a{
+            text-decoration: none;
+            color: black;
+            font-size: 25px;
+            
+        }
+        div  a{
+            margin: 0px 40px;
+            /* background-color: #c6c4c4; */
+            padding: 2px;
+            border-radius: 5px;
+        }
+        div  a:hover{
+            color: aliceblue;
+            background-color: #141414;
+            transition: 0.5s;
+        }
+        h2{
+            text-align: center;
+            font-size: 30px;
+            padding: 20px;
+            word-spacing: 20px;
+        }
+        h4{
+            text-align: center;
+            font-size: 15px;
+            padding: 5px;
+        }
+        .from-container{
+            width: 100%;
+            align-items: center;
+            height: 90vh;
+            display: flex;
+            justify-content: center;
+            /* border: 1px solid greenyellow; */
+        }
+        .login-from{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 30%;
+            /* border: 2px solid blueviolet; */
+        }
+        .login-from input{
+            margin-top: 10px;
+            padding: 8px;
+            border: 2px solid black;
+            border-radius: 5px;
+            outline: none;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <div>
+            <a href="">home</a>
+            <a href="">about</a>
+            <a href="">contact</a>
+            <a href="">prize</a>
+        </div>
+        <a href="">support</a>
+    </nav>
+    <div class="from-container">
+        <form class="login-from">
+            <h2>please signup</h2>
+            <h4>create an a account</h4>
+            <input type="text" name="name name" placeholder="first name">
+            <input type="text" name="last name" placeholder="last name">
+            <input type="email" name="email" placeholder="your email">
+            <input type="password" name="password" placeholder="password">
+            <input type="password" name="password" placeholder="retype password">
+
+            <input type="submit">
+            <input type="checkbox">
+            <span>please fill the chekebox</span>
+        </form>
+    </div>
+</body>
+</html>
