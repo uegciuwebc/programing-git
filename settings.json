@@ -1,0 +1,28 @@
+{
+    "editor.fontSize": 20,
+    "editor.fontVariations": false,
+    "editor.fontFamily": "fira code, operator mono",
+    "editor.fontLigatures": true,
+    "editor.wordWrap": "on",
+    "editor.minimap.enabled": false,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope":"comment",
+                "settings": {
+                    "foreground": "#f5ee2b",
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    },
+    "editor.scrollbar.horizontal": "visible",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorBlinking": "expand",
+    "workbench.colorTheme": "dracula",
+    // terminal//
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontFamily": "fira code",
+    "workbench.list.horizontalScrolling": true,
+    "editor.scrollbar.ignoreHorizontalScrollbarInContentHeight": true
+}
